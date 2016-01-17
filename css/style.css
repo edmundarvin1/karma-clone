@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 /* Navigation Section */
 .top-navigation{
 	background-color: white;
@@ -6,5 +12,39 @@
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
-	float: left;
+
+}
+.top-navigation > .content > .links{
+	margin-right: 8rem;
+	float: right;	
+}
+.top-navigation > .content > .links li:hover{
+	color: black;
+	cursor: pointer ;
+}
+.links > li{
+	display: inline-block;
+	margin-left: 1.263rem;
+	border: 0;
+	padding-top:.69rem;
+	font-family: 'Roboto',sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+
+}
+.top-navigation .links > .active{
+	color:#4c5058;
+}
+.logo{
+	padding-top: 1.0rem;
+	padding-left: 5.515rem;
+	box-sizing: initial;
+
+}
+body {
+	background-color: gray;
+}
+.bg-section{
+	background-image: url("img/karma-bg")
 }
