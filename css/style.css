@@ -7,16 +7,23 @@ html {
 /* Navigation Section */
 .top-navigation{
 	background-color: white;
+	margin-left: 270.203;
+	margin-right: 270.203;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .top-navigation > .content{
 	height: 70px;
 	margin: 0 auto;
-	width: 970px;
+	width: 1370px;
 
 }
 .top-navigation > .content > .links{
 	margin-right: 8rem;
-	float: right;	
+	float: right;
+	margin-left: 12.25rem;
+	font-weight: 300;	
 }
 .top-navigation > .content > .links li:hover{
 	color: black;
@@ -60,6 +67,7 @@ body {
 	margin: 0 auto;
 	width: 970px;
 	font-weight: 300;
+	overflow: auto;
 	
 }
 .content > h1{
@@ -74,4 +82,43 @@ body {
 }
 h1, h3 {
 	font-weight: 300;
+}
+button{
+	margin: 0 auto;
+	text-shadow:none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	cursor: pointer;
+}
+.cases{
+	background-color: white;
+	font-family: 'Roboto';
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 5rem;
+
+}
+.cases .devices{
+	width: 20%;
+	display: inline-block;
+	font-weight: 300;
+	box-sizing: border-box;
+	height: 4em;
+	display: inline-block;
+	text-align: center;
+	margin-top: 3.5rem;
+	font-size: 1.563rem
+
+
+}
+.cases h2{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 8rem;
+	font-weight: 300;
+	font-family: 'Roboto';
+	font-size:2.75rem;
 }
